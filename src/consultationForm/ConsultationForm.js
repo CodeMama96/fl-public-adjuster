@@ -29,3 +29,7 @@ class ConsultationForm extends React.Component {
         </form>
       );
     }
+
+}
+
+export default ConsultationForm

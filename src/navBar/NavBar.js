@@ -16,11 +16,11 @@ export default function NavBar() {
                     <div className='col-sm-10'>
                         <div className='nav'>
                         <ul className='menu'>
-                        <li>About Us</li>
-                        <li>Our Team</li>
-                        <li>Services</li>
-                        <li>Claim Types</li>
-                        <li>Contact Us</li>
+                        <li id="menu-item-1">About Us</li>
+                        <li id="menu-item-2">Our Team</li>
+                        <li id="menu-item-3">Services</li>
+                        <li id="menu-item-4">Claim Types</li>
+                        <li id="menu-item-5">Contact Us</li>
                         </ul>
 
                         </div>

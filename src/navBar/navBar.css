@@ -1,63 +1,86 @@
-.main-navbar{
-    background: #fff;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 100px;
-    z-index: 200;
-    padding: 10px;
-    box-shadow: 0 10px 30px rgb(0 0 0 / 6%);
+.main-navbar {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  z-index: 200;
+  padding: 10px;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 6%);
+
+  background-color: black;
+  color: #fff;
 }
 
 
-
-@media (min-width: 1200px){
-    .container {
-        width: 1170px;
-    }
+.menu {
+  display: flex;
 }
 
-@media (min-width: 992px){
-    .container {
-        width: 970px;
-    }
+.menu li {
+  list-style-type: none;
+  margin-right: 3rem;
+  
 }
 
-@media (min-width: 768px){
-    .container {
-        width: 750px;
-    }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
 }
 
-.container{
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .row {
-    margin-left: -15px;
-    margin-right: -15px;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
-@media (min-width: 768px){
-    .col-sm-2 {
-        width: 16.66666667%;
-    }
+@media (min-width: 768px) {
+  .col-sm-2 {
+    width: 16.66666667%;
+  }
 }
 
-@media (min-width: 768px){
-.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+@media (min-width: 768px) {
+  .col-sm-1,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-sm-10,
+  .col-sm-11,
+  .col-sm-12 {
     float: left;
-}
+  }
 }
 
-
-.nav{
-    margin-top: 52px;
-    text-align: center;
-    font-family: 'Exo';
-    display: flex;
+.nav {
+  margin-top: 52px;
+  text-align: center;
+  font-family: "Exo";
+  display: flex;
 }
