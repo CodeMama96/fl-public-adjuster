@@ -1,5 +1,5 @@
 
-import './App.css';
+import './bootstrap.css';
 import NavBar from './navBar/NavBar';
 import Footer from './footer/Footer';
 import Home from './Home';

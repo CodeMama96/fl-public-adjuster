@@ -1,15 +1,15 @@
 .main-navbar {
   background: #fff;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
-  height: 100px;
+  height: 7rem;
   z-index: 200;
   padding: 10px;
   box-shadow: 0 10px 30px rgb(0 0 0 / 6%);
 
-  background-color: black;
+  background-color: darkcyan;
   color: #fff;
 }
 
@@ -29,6 +29,8 @@
   .container {
     width: 1170px;
   }
+
+
 }
 
 @media (min-width: 992px) {
@@ -37,10 +39,35 @@
   }
 }
 
+
+@media (max-width: 768px) {
+  .nav{
+   display: none !important;
+  }
+ 
+  .main-navbar {
+    background: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    z-index: 200;
+    padding: 10px;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 6%);
+  
+    background-color: black;
+    color: #fff;
+  }
+  
+  
+}
 @media (min-width: 768px) {
   .container {
     width: 750px;
   }
+
+  
 }
 
 .container {
@@ -59,6 +86,8 @@
   .col-sm-2 {
     width: 16.66666667%;
   }
+
+  
 }
 
 @media (min-width: 768px) {

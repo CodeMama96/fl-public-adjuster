@@ -1,33 +1,52 @@
 import React from 'react'
+import Hamburger from './Hamburger'
 
-import './navBar.css'
+
+
+// import './navBar.css'
 
 export default function NavBar() {
     return (
-        <div className='main-navbar' >
-            <div className='container'>
-                <div className='row'>
-                    <div className='col-sm-2'>
-                    <button>logo here</button>
-                    {/* <a href='josh's website here' className="logo"> */}
-                        <img src='#' alt='linked img'></img>
-                    {/* </a> */}
-                    </div>
-                    <div className='col-sm-10'>
-                        <div className='nav'>
-                        <ul className='menu'>
-                        <li id="menu-item-1">About Us</li>
-                        <li id="menu-item-2">Our Team</li>
-                        <li id="menu-item-3">Services</li>
-                        <li id="menu-item-4">Claim Types</li>
-                        <li id="menu-item-5">Contact Us</li>
-                        </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home
+            <span class="visually-hidden">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+          </div>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-sm-2" type="text" placeholder="Search"/>
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
     )
 }

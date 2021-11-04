@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+// import './footer.css';
 
 export default function Footer() {
     return (
-        <div>
+        <div className='footer'>
             <h1>im the footer</h1>
             <a href="#" className="nav-link">
           HOME
