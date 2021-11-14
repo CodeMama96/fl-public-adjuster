@@ -87,12 +87,12 @@ export default function home() {
             <img></img>
             <h3>WE WORK</h3>
             <img></img>
-            <h2>CALL US TODAY FOR FREE CONSULTATION</h2>
-            <h1>Call 347-216-1966</h1>
+            <h3>CALL US TODAY FOR FREE CONSULTATION</h3>
+            <h2>Call 347-216-1966</h2>
         
         </div>
         <div className='typesOfClaims'>
-        <h1> TYPES OF CLAIMS</h1>
+        <h2> TYPES OF CLAIMS</h2>
        <p>
        When most people think of an insurance claim, they immediately think of some sort of catastrophic event for which they need to file a claim. However, most policies of insurance provide coverage for many other types of losses which should be carefully considered. Foremost Public Adjusters provides professional insurance claim representation for the following types of losses.
        </p><img></img>

@@ -12,6 +12,10 @@ body {
     margin-bottom: 4rem;
 }
 
+ul {
+    list-style-type: none;
+}
+
 h1 {
     /* font-family: 'Poppins', sans-serif, 'arial'; */
     /* font-weight: 600; */
@@ -254,3 +258,6 @@ input[type=checkbox]:checked + label {
 
 
  */
+
+
+ 
